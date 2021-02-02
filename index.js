@@ -15,12 +15,12 @@
 
 //object property
 
-const students =[
-    {id: 21, name: 'omor sunny'},
-    {id: 22, name: 'Mannaaa'},
-    {id: 41, name: 'Myouri'},
-    {id: 71, name: 'Dipjol'}
-];
+// const students =[
+//     {id: 21, name: 'omor sunny'},
+//     {id: 22, name: 'Mannaaa'},
+//     {id: 41, name: 'Myouri'},
+//     {id: 71, name: 'Dipjol'}
+// ];
 
 // var newStudent =[];
 // for (var i =0; i<students.length; i++){
@@ -30,9 +30,19 @@ const students =[
 // console.log(elements);
 // console.log(newStudent.name[0]);
 
-const names = students.map( s => s.name);
-const ids = students.map( i => i.id);
-const filters = students.filter( f => f.id > 40);
-console.log(names);
-console.log(ids);
-console.log(filters);
+// const names = students.map( s => s.name);
+// const ids = students.map( i => i.id);
+// const filters = students.filter( f => f.id > 40);
+// console.log(names);
+// console.log(ids);
+// console.log(filters);
+
+
+function sum (firs,second){
+    let result = first+second;
+    return result;
+}
+
+const output = sum(3,7);
+console.log(result);
+console.log(output);
